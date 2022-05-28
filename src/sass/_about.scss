@@ -1,0 +1,29 @@
+.about {
+  background-color: chocolate;
+}
+.container {
+  width: 600px;
+}
+.title {
+  font-size: 44px;
+}
+.about-list {
+  list-style: none;
+}
+.about-item:not(:last-child) {
+  margin-right: 20px;
+}
+.about-article {
+  border-radius: 50px;
+  background-color: darkmagenta;
+}
+.subtitle {
+  font-size: 20px;
+  color: #ffffff;
+}
+.text {
+  text-align: center;
+  width: 90%;
+  color: yellow;
+  font-size: 14px;
+}
