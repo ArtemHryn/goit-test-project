@@ -1,0 +1,41 @@
+.page-footer {
+    background-color: darkslategrey;
+    padding-top: 60px;
+    padding-bottom: 60px;    
+}
+
+.container {
+    display: flex;
+    width: 600px;
+}
+
+.logo {
+    display: block;
+    background-color: indianred;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;    
+}
+
+.soc-list {
+    display: flex;
+    list-style: none;
+}
+
+.soc-item {
+    background-color: magenta;   
+
+}
+
+.soc-item:not(:last-child) {
+    margin-right: 30px;
+}
+.soc-link {
+    color: yellow;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: 0.03;
+
+    text-decoration: none;
+}
