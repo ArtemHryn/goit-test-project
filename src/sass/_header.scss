@@ -19,15 +19,17 @@
   display: flex;
   list-style: none;
   background-color: bisque;
+  margin: 1px;
 }
 .nav-item {
-  .nav-item:not(:last-child) {
+  &:not(:last-child) {
     margin-right: 30px;
   }
 }
 .nav-link {
   text-decoration: none;
-  color: aqua;
+  color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
   font-size: 24px;
   letter-spacing: 0.06em;
   line-height: 1.5;
